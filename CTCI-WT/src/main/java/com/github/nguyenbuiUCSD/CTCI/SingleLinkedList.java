@@ -1,5 +1,6 @@
 package com.github.nguyenbuiUCSD.CTCI;
 
+import java.util.HashSet;
 
 public class SingleLinkedList {
 	SLLNode start;
@@ -215,4 +216,33 @@ public class SingleLinkedList {
 		}
 		return null;
 	}
+	
+	/*
+	 * function name: removeDuplicate
+	 * param:
+	 * 		return:		the last node in group of nodes that get reverse
+	 * Usage: Remove all duplicate data in linked list
+	 * Note: O(N) space and time. Use two pointer if want O(1) space, O(N^2) time
+	 */
+	public void removeDuplicate() {
+		HashSet<Character> hashset = new HashSet<Character>();
+		SLLNode current=start;
+		
+		if (current == null) {
+			return;
+		}
+		
+		hashset.add(current.data);
+		
+		while(current.next!=null) {
+			if (hashset.contains(current.next.data)) {
+				current.next=current.next.next;
+			} else {
+				hashset.add(current.next.data);
+				current = current.next;
+			}
+		}
+	}
+	
+	
 }

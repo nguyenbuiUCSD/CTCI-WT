@@ -72,6 +72,66 @@ public class SingleLinkedListTest {
 		assertEquals("HGFEDCBA", singleLinkedList.toString());
 	}
 	
+
+	
+	@Test
+	public void testRemoveDuplicate1() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList(){{
+			insertNode('A');
+			insertNode('A');
+			insertNode('A');
+			insertNode('B');
+			insertNode('B');
+			insertNode('B');
+			insertNode('C');
+			insertNode('D');
+			}};
+		singleLinkedList2.removeDuplicate();
+		assertEquals("ABCD", singleLinkedList2.toString());
+	}
+	
+	@Test
+	public void testRemoveDuplicate2() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList();
+		singleLinkedList2.removeDuplicate();
+		assertEquals("", singleLinkedList2.toString());
+	}
+	
+	@Test
+	public void testRemoveDuplicate3() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList(){{
+			insertNode('A');
+			insertNode('A');
+			insertNode('A');
+			insertNode('A');
+			insertNode('A');
+			insertNode('A');
+			insertNode('A');
+			insertNode('A');
+			}};
+		singleLinkedList2.removeDuplicate();
+		assertEquals("A", singleLinkedList2.toString());
+	}
+	
+	@Test
+	public void testRemoveDuplicate4() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList() {{
+			insertNode('A');
+			insertNode('B');
+			insertNode('C');
+			insertNode('D');
+			insertNode('E');
+			insertNode('F');
+			insertNode('G');
+			insertNode('H');
+		}};
+		singleLinkedList2.removeDuplicate();
+		assertEquals("ABCDEFGH", singleLinkedList2.toString());
+	}
 	
 
 }
