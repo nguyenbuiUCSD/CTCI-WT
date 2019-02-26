@@ -14,17 +14,17 @@ public class AnagramTest {
 	
 	@Test
 	public void testFindAnagrams1() {
-		assertEquals(anagram.findAnagrams("BACDGABCDA", "ABCD"), Arrays.asList(0,5,6));
+		assertEquals(Arrays.asList(0,5,6), anagram.findAnagrams("BACDGABCDA", "ABCD"));
 	}
 	
 	@Test
 	public void testFindAnagrams2() {
-		assertEquals(anagram.findAnagrams("BACDGABCDA", ""), Arrays.asList());
+		assertEquals(Arrays.asList(), anagram.findAnagrams("BACDGABCDA", ""));
 	}
 	
 	@Test
 	public void testFindAnagrams3() {
-		assertEquals(anagram.findAnagrams("AAAAAA", "A"), Arrays.asList(0,1,2,3,4,5));
+		assertEquals(Arrays.asList(0,1,2,3,4,5), anagram.findAnagrams("AAAAAA", "A"));
 	}
 
 }
