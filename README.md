@@ -14,6 +14,6 @@ This is a maven project that is created to practice problems for interview. This
 
 - [Reverse every n Nodes in Linked List](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/d84d1e05e62099ff063a570577727b0ea5377727/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L164) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/d84d1e05e62099ff063a570577727b0ea5377727/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L10)
 
-- [remove Duplicate]() - [Test Cases]()
+- [Remove Duplicate](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L221) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L77)
 
 
