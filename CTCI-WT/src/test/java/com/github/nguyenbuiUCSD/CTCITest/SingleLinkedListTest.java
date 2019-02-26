@@ -28,6 +28,13 @@ public class SingleLinkedListTest {
 	}
 	
 	@Test
+	public void testReverseList1() {
+		SLLNode retNode = singleLinkedList.reverseList(singleLinkedList.search('D'),2);
+		assertEquals(singleLinkedList.toString(), "ABCDFEGH");
+		assertEquals(retNode, singleLinkedList.search('D') );
+	}
+	
+	@Test
 	public void testReverseEveryNNode1() {
 		singleLinkedList.reverseEveryNNode(1);
 		assertEquals("ABCDEFGH", singleLinkedList.toString());

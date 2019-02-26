@@ -153,6 +153,25 @@ public class SingleLinkedList {
 		return newEnd;
 	}
 	
+	
+	/*
+	 * function name: reverseEveryNNode
+	 * param:
+	 * 		n:	number node in sub group to be reverse
+	 * 		return:		void
+	 * Usage: Reverse every n nodes in the list
+	 */
+	public void reverseEveryNNode(int n){
+		if (n==0){
+			return;
+		}
+		SLLNode temp=reverseListInclusive(null,n);;
+		while (temp!=null && temp.next!=null){
+			temp = reverseListInclusive(temp,n);
+		}
+	}
+	
+	
 	public SLLNode insertNode(char in){
 		SLLNode newNode = new SLLNode(in);
 		if (start==null){
@@ -174,25 +193,7 @@ public class SingleLinkedList {
 		System.out.println();
 	}
 	
-	
-	/*
-	 * function name: reverseListInclusive
-	 * param:
-	 * 		startNode:	all Nodes after startNode will be reversed
-	 * 		return:		the last node in group of nodes that get reverse
-	 * Usage: Reverse n nodes that is after one specific Node.
-	 * CAUTION: if startNode == null, this function will reverse from root
-	 */
-	public void reverseEveryNNode(int n){
-		if (n==0){
-			return;
-		}
-		SLLNode temp=reverseListInclusive(null,n);;
-		while (temp!=null && temp.next!=null){
-			temp = reverseListInclusive(temp,n);
-		}
-	}
-	
+
 	
 	public String toString(){
 		SLLNode temp = start;
