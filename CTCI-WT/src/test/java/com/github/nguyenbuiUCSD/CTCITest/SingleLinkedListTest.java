@@ -133,5 +133,72 @@ public class SingleLinkedListTest {
 		assertEquals("ABCDEFGH", singleLinkedList2.toString());
 	}
 	
+	@Test
+	public void testRemoveNode1() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList() {{
+			insertNode('A');
+			insertNode('B');
+			insertNode('C');
+			insertNode('D');
+			insertNode('E');
+			insertNode('F');
+			insertNode('G');
+			insertNode('H');
+		}};
+		assertEquals(true, singleLinkedList2.removeNode(singleLinkedList2.search('D')));
+		assertEquals("ABCEFGH", singleLinkedList2.toString());
+	}
+	
+	@Test
+	public void testRemoveNode2() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList() {{
+			insertNode('A');
+			insertNode('B');
+			insertNode('C');
+			insertNode('D');
+			insertNode('E');
+			insertNode('F');
+			insertNode('G');
+			insertNode('H');
+		}};
+		assertEquals(false, singleLinkedList2.removeNode(singleLinkedList2.search('I')));
+		assertEquals("ABCDEFGH", singleLinkedList2.toString());
+	}
+	
+	@Test
+	public void testRemoveNode3() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList() {{
+			insertNode('A');
+			insertNode('B');
+			insertNode('C');
+			insertNode('D');
+			insertNode('E');
+			insertNode('F');
+			insertNode('G');
+			insertNode('H');
+		}};
+		assertEquals(false, singleLinkedList2.removeNode(singleLinkedList2.search('A')));
+		assertEquals("ABCDEFGH", singleLinkedList2.toString());
+	}
+	
+	@Test
+	public void testRemoveNode4() {
+		
+		SingleLinkedList singleLinkedList2 = new SingleLinkedList() {{
+			insertNode('A');
+			insertNode('B');
+			insertNode('C');
+			insertNode('D');
+			insertNode('E');
+			insertNode('F');
+			insertNode('G');
+			insertNode('H');
+		}};
+		assertEquals(false, singleLinkedList2.removeNode(singleLinkedList2.search('H')));
+		assertEquals("ABCDEFGH", singleLinkedList2.toString());
+	}
 
 }

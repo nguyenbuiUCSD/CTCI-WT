@@ -244,5 +244,24 @@ public class SingleLinkedList {
 		}
 	}
 	
+	/*
+	 * function name: removeMiddleNode
+	 * param:
+	 * 		thisNode: Node to be removed
+	 * 		return:		true/false indicate successful/fail to remove Node
+	 * Usage: Remove middle Node (Not the first or Last)
+	 * Note: O(1) space and time. However, this does not work on the last node, and potentially introduce bug
+	 * 		if the next node is using from other place
+	 */
+	public boolean removeNode(SLLNode thisNode) {
+		if ((thisNode==start)||(thisNode==end)||thisNode==null||thisNode.next==null) {
+			return false;
+		}
+		
+		thisNode.data=thisNode.next.data;
+		thisNode.next=thisNode.next.next;
+		
+		return true;
+	}
 	
 }
