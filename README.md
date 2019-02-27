@@ -16,4 +16,6 @@ This is a maven project that is created to practice problems for interview. This
 
 - [Remove Duplicate](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L221) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L77)
 
+- [Remove Node in Middle](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L248) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L136)
+
 
