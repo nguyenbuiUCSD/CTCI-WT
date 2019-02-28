@@ -18,4 +18,7 @@ This is a maven project that is created to practice problems for interview. This
 
 - [Remove Node in Middle](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/7b31b9f97fd848bb6a125e428e3003afeaaa8671/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L248) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/7b31b9f97fd848bb6a125e428e3003afeaaa8671/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L136)
 
+**Concept and Algorithms**
 
+*Recursion and Dynamic Programing*
+- [Triple Step](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/88d96ad6cd28273942c9314d4821b8f2ff12c912/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/TripleStep.java#L5) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/88d96ad6cd28273942c9314d4821b8f2ff12c912/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/findTripleStepTest.java#L11)
