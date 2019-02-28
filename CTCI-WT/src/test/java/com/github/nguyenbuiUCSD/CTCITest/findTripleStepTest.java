@@ -10,7 +10,7 @@ public class findTripleStepTest {
 
 	@Test
 	public void findTripleStepTest1() {
-		assertEquals(0,(new TripleStep()).findTripleStep(0));
+		assertEquals(1,(new TripleStep()).findTripleStep(0));
 	}
 	
 	@Test
@@ -30,7 +30,7 @@ public class findTripleStepTest {
 	
 	@Test
 	public void findTripleStepTest5() {
-		assertEquals(0,(new TripleStep()).findTripleStep(0));
+		assertEquals(1,(new TripleStep()).findTripleStep(0));
 	}
 
 }
