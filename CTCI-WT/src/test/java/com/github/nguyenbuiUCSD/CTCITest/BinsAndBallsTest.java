@@ -42,6 +42,46 @@ public class BinsAndBallsTest {
 			Random random = new Random();
 			List<int[]> list = new ArrayList<int[]>();
 	        int balls = random.nextInt(100);
+			int arr[]= {0,0,0};
+			int numOfWays=1;
+        	for (int j=0;j<balls;j++)
+        		for (int k=0;k<balls;k++)
+        			for (int l=0;l<balls;l++){
+        				if (j+k+l==balls) {
+        					arr[0] = j;
+        					arr[1] = k;
+        					arr[2] = l;
+        				
+        					Arrays.sort(arr);
+        					
+        					boolean duplicate = false;
+        					for (int[] it: list) {
+        						if (Arrays.equals(it,arr)) {
+        							duplicate = true;
+        							break;
+        						}
+        					}
+        				
+        					if (duplicate==false) {
+        						numOfWays++;
+        						list.add(new int[]{arr[0],arr[1],arr[2]}); 
+        					}
+        		}
+	        }
+			
+			assertEquals(numOfWays, bnb.findWays(balls, 3));
+			System.out.println(numOfWays);
+		}
+
+	}
+	
+	@Test
+	public void findWaysTest6() {
+		// Run 100 times
+		for (int times = 0;times<10;times++) {
+			Random random = new Random();
+			List<int[]> list = new ArrayList<int[]>();
+	        int balls = random.nextInt(100);
 			int arr[]= {0,0,0,0};
 			int numOfWays=1;
 	        
