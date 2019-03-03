@@ -264,4 +264,9 @@ public class SingleLinkedList {
 		return true;
 	}
 	
+
+	public SLLNode gethead() {
+		return start;
+	}
+	
 }
