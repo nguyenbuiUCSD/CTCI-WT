@@ -16,6 +16,8 @@ This is a maven project that is created to practice problems for interview. This
 
 - [Remove Duplicate](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L221) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/de27c642ebb7e449df88834dd3ba6f909c206ef2/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L77)
 
+- [Merge Two Sorted Linked Lists](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/b7b452415c62a446034bfa1a5de9adf0bd519d38/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/MergeList.java#L13) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/b7b452415c62a446034bfa1a5de9adf0bd519d38/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTestMergeList.java#L12)
+
 - [Remove Node in Middle](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/7b31b9f97fd848bb6a125e428e3003afeaaa8671/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L248) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/7b31b9f97fd848bb6a125e428e3003afeaaa8671/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L136)
 
 **CONCEPT AND ALGORITHM**
