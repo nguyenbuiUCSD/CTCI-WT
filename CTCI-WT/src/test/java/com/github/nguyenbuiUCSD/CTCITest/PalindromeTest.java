@@ -29,9 +29,10 @@ public class PalindromeTest {
 	public static Collection<String[]> testConditions(){
 		String expectedOutputs[][] = 
 			{
-					{"AA","AA"},
-					{"abcHelloolleHcdg", "cHelloolleHc" },
+					{null,""},
 					{"",""},
+					{"cs.cs.sc","cs.sc" },
+					{"abcHelloolleHcdg", "cHelloolleHc" },
 					{" "," "}
 			};
 		return Arrays.asList(expectedOutputs);

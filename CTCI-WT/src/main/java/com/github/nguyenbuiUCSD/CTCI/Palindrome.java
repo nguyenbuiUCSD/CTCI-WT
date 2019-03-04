@@ -8,7 +8,7 @@ public class Palindrome {
 		int inStringLen;
 		
 		// Input validation
-		if (inString.isEmpty()) {
+		if (inString == null || inString.isEmpty()) {
 			return "";
 		}
 
@@ -46,7 +46,7 @@ public class Palindrome {
 			subEnd = i+1;
 			//Check for odd length Palindrome
 			while(subStart >= 0 && subEnd < inStringLen && inString.charAt(subStart)== inString.charAt(subEnd) ) {
-				subMaxLen = subStart - subEnd + 1;
+				subMaxLen = subEnd - subStart + 1;
 				if (subMaxLen > maxLen) {
 					maxLen = subMaxLen;
 					start = subStart;
