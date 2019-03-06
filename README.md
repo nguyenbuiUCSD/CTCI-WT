@@ -10,6 +10,8 @@ This is a maven project that is created to practice problems for interview. This
 
 - [Palindrome](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/42a4169f664e21a1a34fac43b5297ea7412330ff/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/Palindrome.java#L4) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/42a4169f664e21a1a34fac43b5297ea7412330ff/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/PalindromeTest.java#L17)
 
+- [Is Unique](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/af524fdbf6984b943fc7fe3c3a4958484041b833/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/StringUtil.java#L14) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/af524fdbf6984b943fc7fe3c3a4958484041b833/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/TestIsUnique.java#L11)
+
 *Linked List*
 - [Reverse n Nodes in Linked List](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/d84d1e05e62099ff063a570577727b0ea5377727/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L4) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/d84d1e05e62099ff063a570577727b0ea5377727/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L10)
 
