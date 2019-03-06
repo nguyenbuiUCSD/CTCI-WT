@@ -26,6 +26,13 @@ public class TestIsUnique {
 	
 	@Test
 	public void isUniqueTest3() {
+		String notunique = "ASDFGHJKLPOIUYTREWqasfxvgzbhnjamkoqlpiuyr;,/.'l]'/1245";
+		assertEquals(false, StringUtil.isUnique(notunique));
+		
+	}
+	
+	@Test
+	public void isUniqueTest4() {
 		String empty = "";
 		assertEquals(true, StringUtil.isUnique(empty));
 		
