@@ -22,6 +22,8 @@ public class URLifyTest {
 	public static Collection<String[]> testConditions(){
 		String expectedOutput[][] = {
 				{"Nguyen Bui", "Nguyen%20Bui"},
+				{"Hello world, I'm here to conquer","Hello%20world,%20I'm%20here%20to%20conquer"},
+				{" ","%20"},
 				{"",""}
 		};
 		return Arrays.asList(expectedOutput);
