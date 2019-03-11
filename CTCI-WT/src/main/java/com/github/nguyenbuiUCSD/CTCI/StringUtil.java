@@ -1,6 +1,7 @@
 package com.github.nguyenbuiUCSD.CTCI;
 
 import java.util.Arrays;
+import java.util.concurrent.CountDownLatch;
 
 public class StringUtil {
 	
@@ -99,6 +100,50 @@ public class StringUtil {
 		}
 		
 		return ret;
+	}
+	
+	/*
+	 * function name: urlify
+	 * param:	
+	 * 			inURL: in put string
+	 * 			int trueSize: size of input URL
+	 * 			return: output string with all spaces replaced by '%20'
+	 * Promt:	Write a method to replace all spaces in a string with '%20'.
+	 * Note:	Assumptions: 
+	 * 				the string has sufficient space at the end to hold the additional characters
+	 * 				given the "true" length of the string (The string before spaces replaced)
+	 * 			This method scan from right to left of the string to avoid using additional spaces.
+	 * 			O(n) time, O(n) spaces. (If input is array of char then O(1) space)
+	 */
+	public static boolean urlify(char[] inURL, int trueSize) {
+		
+		// Vars declaration
+		int spaceCount=0;
+		
+		//Valid check
+		if (inURL.length<trueSize) {
+			return false;
+		}
+		
+		// Count number of spaces
+		for (int i=0;i<trueSize;i++) {
+			if (inURL[i] == ' ') {
+				spaceCount++;
+			}
+		}
+		
+		int index = trueSize + 2*spaceCount;
+		
+		for (int i = trueSize-1; i>=0; i--) {
+			if (inURL[i]== ' ') {
+				inURL[--index] = '0';
+				inURL[--index] = '2';
+				inURL[--index] = '%';
+			} else {
+				inURL[--index] = inURL[i];
+			}
+		}
+		return true;
 	}
 	
 	

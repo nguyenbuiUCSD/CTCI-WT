@@ -2,6 +2,7 @@ package com.github.nguyenbuiUCSD.CTCITest;
 
 import static org.junit.Assert.*;
 
+import java.io.Console;
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -38,6 +39,17 @@ public class URLifyTest {
 	@Test
 	public void test() {
 		assertEquals(expectedOutput, StringUtil.urlify(input));;
+	}
+	
+	@Test
+	public void test2() {
+		char[] actual = new char[expectedOutput.length()];
+		for (int i=0;i<input.length();i++) {
+			actual[i]=input.charAt(i);
+		}
+		StringUtil.urlify(actual, input.length());
+		String actualStr = String.valueOf(actual);
+		assertEquals(expectedOutput, actualStr);
 	}
 
 }
