@@ -12,7 +12,7 @@ This is a maven project that is created to practice problems for interview. This
 
 - [Is Unique](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/af524fdbf6984b943fc7fe3c3a4958484041b833/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/StringUtil.java#L14) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/af524fdbf6984b943fc7fe3c3a4958484041b833/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/TestIsUnique.java#L11)
 
-- [Is Unique](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/308298844d09d4bdc0b0b74f38c059bd061cae64/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/StringUtil.java#L76) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/308298844d09d4bdc0b0b74f38c059bd061cae64/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/URLifyTest.java#L39)
+- [URLify](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/308298844d09d4bdc0b0b74f38c059bd061cae64/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/StringUtil.java#L76) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/308298844d09d4bdc0b0b74f38c059bd061cae64/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/URLifyTest.java#L39)
 
 *Linked List*
 - [Reverse n Nodes in Linked List](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/d84d1e05e62099ff063a570577727b0ea5377727/CTCI-WT/src/main/java/com/github/nguyenbuiUCSD/CTCI/SingleLinkedList.java#L4) - [Test Cases](https://github.com/nguyenbuiUCSD/CTCI-WT/blob/d84d1e05e62099ff063a570577727b0ea5377727/CTCI-WT/src/test/java/com/github/nguyenbuiUCSD/CTCITest/SingleLinkedListTest.java#L10)
