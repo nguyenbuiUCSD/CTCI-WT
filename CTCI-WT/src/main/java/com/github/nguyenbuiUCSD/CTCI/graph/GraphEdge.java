@@ -1,11 +1,14 @@
 package com.github.nguyenbuiUCSD.CTCI.graph;
 
-import java.util.List;
-
 public class GraphEdge {
 	private GraphNode start,end;
+	private int weight;
 	
-	private List<GraphNode> nodeList;
+	public GraphEdge(GraphNode start, GraphNode end, int weight) {
+		this.start = start;
+		this.end = end;
+		this.weight = weight;
+	}
 
 	public GraphNode getEnd() {
 		return end;
@@ -23,12 +26,13 @@ public class GraphEdge {
 		this.start = start;
 	}
 
-	public List<GraphNode> getNodeList() {
-		return nodeList;
+	public int getWeight() {
+		return weight;
 	}
 
-	public void setNodeList(List<GraphNode> nodeList) {
-		this.nodeList = nodeList;
+	public void setWeight(int weight) {
+		this.weight = weight;
 	}
-	
+
+
 }
